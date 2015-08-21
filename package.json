@@ -1,0 +1,18 @@
+{
+  "name": "graphql-node",
+  "version": "0.0.1",
+  "description": "A simple implementation of GraphQL in Node with memory storage.",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node  ./server.js"
+  },
+  "engines" : { "node" : "0.12.0" },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "graphql": "^0.4.2"
+  }
+}
